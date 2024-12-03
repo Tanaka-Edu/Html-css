@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+section{
+    background: #b89cd5;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 40px;
+}
+
+img{
+    height: 500px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img{
+    max-width:300px;
+    max-height:200px;
+}
